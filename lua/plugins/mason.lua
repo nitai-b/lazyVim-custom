@@ -1,6 +1,9 @@
 return {
   "williamboman/mason.nvim",
   opts = function(_, opts)
-    table.insert(opts.ensure_installed, "prettier")
+    vim.list_extend(opts.ensure_installed, {
+      "lua-language-server",
+      "prettier",
+    })
   end,
 }

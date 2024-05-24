@@ -19,6 +19,7 @@ return {
       "yaml",
       "vue",
       "graphql",
+      "svelte",
     })
   end,
 }
