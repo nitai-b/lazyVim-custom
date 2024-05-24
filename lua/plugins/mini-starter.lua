@@ -1,1 +1,1 @@
-return { import = "lazyvim.plugins.extras.ui.mini-starter", enabled = false }
+return { import = "lazyvim.plugins.extras.ui.mini-starter", enabled = true }
