@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.winbar = "%=%m %f"
 vim.opt.scrolloff = 10
+vim.opt.colorcolumn = "80"
