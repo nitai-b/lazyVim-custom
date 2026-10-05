@@ -7,11 +7,11 @@
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 
-vim.api.nvim_create_user_command("format-json", function()
+vim.api.nvim_create_user_command("FormatJson", function()
   vim.cmd("%!jq .")
 end, {})
 
-vim.api.nvim_create_user_command("timestamp", function()
+vim.api.nvim_create_user_command("Timestamp", function()
   local comment = vim.bo.commentstring
   if vim.bo.filetype == "markdown" then
     comment = "<!-- %s -->"
